@@ -63,8 +63,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-        app-name: '79110'           # Your app name
-        slot-name: 'production'     # Lowercase 'production' is typical; try 'Production' if fails
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62E0FDC188A74E9A8724D5761DFC2D5E }}
-
+          app-name: '79110'           # Your app name
+          slot-name: 'production'     # Lowercase 'production' is typical; try 'Production' if fails
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62E0FDC188A74E9A8724D5761DFC2D5E }}
+
