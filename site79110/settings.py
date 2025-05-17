@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2=3^_j$g-qwm3*_c@@w8^g(y2-ttg0^fon8@tv5=j-*gy4g#0f
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = ['https://ruu-smfi.onrender.com']
 
 # Application definition
 
